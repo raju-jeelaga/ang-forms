@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+body a {
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.bg-light {
+  background-color: #0c80f4 !important;
+}
+.navbar a {
+  color: #fff !important;
+}
+.navbar-brand {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+.main {
+  margin: 30px auto;
+}
