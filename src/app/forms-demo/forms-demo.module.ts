@@ -8,6 +8,7 @@ import { FormGroupComponent } from "./reactive/form-group/form-group.component";
 import { FormArrayComponent } from "./reactive/form-array/form-array.component";
 import { FormBuilderComponent } from "./reactive/form-builder/form-builder.component";
 import { NestedFormGroupComponent } from "./reactive/nested-form-group/nested-form-group.component";
+import { SuperHeroComponent } from './template-driven/super-hero/super-hero.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NestedFormGroupComponent } from "./reactive/nested-form-group/nested-fo
     FormArrayComponent,
     FormBuilderComponent,
     NestedFormGroupComponent,
+    SuperHeroComponent,
   ],
   imports: [CommonModule, ReactiveFormsModule, FormsModule],
 })
