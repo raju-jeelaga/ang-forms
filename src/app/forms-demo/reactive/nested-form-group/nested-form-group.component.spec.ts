@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TemplateDrivenComponent } from './template-driven.component';
+import { NestedFormGroupComponent } from './nested-form-group.component';
 
-describe('TemplateDrivenComponent', () => {
-  let component: TemplateDrivenComponent;
-  let fixture: ComponentFixture<TemplateDrivenComponent>;
+describe('NestedFormGroupComponent', () => {
+  let component: NestedFormGroupComponent;
+  let fixture: ComponentFixture<NestedFormGroupComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TemplateDrivenComponent ]
+      declarations: [ NestedFormGroupComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TemplateDrivenComponent);
+    fixture = TestBed.createComponent(NestedFormGroupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

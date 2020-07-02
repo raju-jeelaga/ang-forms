@@ -37,3 +37,10 @@ body a {
 .main {
   margin: 30px auto;
 }
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}

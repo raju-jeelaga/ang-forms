@@ -1,1 +1,22 @@
-<p>home-page works!</p>
+<ngb-accordion #acc="ngbAccordion">
+  <ngb-panel id="toggle-1" title="Reactive Forms">
+    <ng-template ngbPanelContent>
+      <ul>
+        <li><a [routerLink]="['/form-control']"> - Form Control</a></li>
+        <li><a [routerLink]="['/form-group']"> - Form Group</a></li>
+        <li>
+          <a [routerLink]="['/nested-form-group']"> - Nested Form Group</a>
+        </li>
+        <li><a [routerLink]="['/form-builder']"> - Form Builder</a></li>
+        <li><a [routerLink]="['/form-array']"> - Form Array</a></li>
+      </ul>
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel id="toggle-2" title="Template Driven Forms">
+    <ng-template ngbPanelContent>
+      <ul>
+        <li><a href="#">Template Driven Forms</a></li>
+      </ul>
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion>
