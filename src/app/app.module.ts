@@ -8,6 +8,7 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { HomeModule } from "./home/home.module";
 import { SharedModule } from "./shared/shared.module";
 import { FormsDemoModule } from "./forms-demo/forms-demo.module";
+import { CoreModule } from "./core/core.module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,6 +19,7 @@ import { FormsDemoModule } from "./forms-demo/forms-demo.module";
     HomeModule,
     SharedModule,
     FormsDemoModule,
+    CoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

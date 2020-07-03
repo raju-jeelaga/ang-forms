@@ -8,15 +8,15 @@ import { Component, OnInit } from "@angular/core";
 export class SuperHeroComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
-
-  powers: ["Mathew", "Yakob", "James", "Jhon", "David"];
+  powers = ["Really Smart", "Super Flexible", "Weather Changer", "Honest"];
 
   hero = {
     name: "",
     alterEgo: "",
     power: "",
   };
+
+  ngOnInit() {}
 
   onSubmit(heroForm) {
     console.log(this.hero);

@@ -11,7 +11,7 @@ import { FormBuilderComponent } from "./forms-demo/reactive/form-builder/form-bu
 import { FormArrayComponent } from "./forms-demo/reactive/form-array/form-array.component";
 import { FormGroupComponent } from "./forms-demo/reactive/form-group/form-group.component";
 import { NestedFormGroupComponent } from "./forms-demo/reactive/nested-form-group/nested-form-group.component";
-
+import { ReactiveFormValidationComponent } from "./forms-demo/reactive/reactive-form-validation/reactive-form-validation.component";
 //Template-Driven-Forms
 import { SuperHeroComponent } from "./forms-demo/template-driven/super-hero/super-hero.component";
 
@@ -24,6 +24,10 @@ const routes: Routes = [
   { path: "nested-form-group", component: NestedFormGroupComponent },
   { path: "form-array", component: FormArrayComponent },
   { path: "form-group", component: FormGroupComponent },
+  {
+    path: "reactive-form-validation",
+    component: ReactiveFormValidationComponent,
+  },
 
   // Template-driven-forms
   { path: "template-driven", component: SuperHeroComponent },
